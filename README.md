@@ -3,7 +3,9 @@
 This project was created out of the lack of good examples and instructions on how to begin
 processing the PCF messages that IBM generates automatically as part of its normal queue manager operations.
 While IBM does provide many samples for processing PCF messages in multiple languages, they do not provide any samples
-that utilise the MQ Classes for JMS to process PCF messages. 
+that utilise the MQ Classes for JMS to process PCF messages, nor are there any good "getting started" guides related to
+processing PCF messages that I could find. (With that being said, Colin Pace's blog has some posts in relation to
+processing PCF which have been useful in solving some specific problems, thank you for posting those Colin!)
 
 The project mainly focuses on pulling down these messages, then pulling them apart into their respective
 individual parameters and extracting the data desired by the programmer. In this particular instance, I am looking
